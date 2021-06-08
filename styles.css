@@ -41,7 +41,7 @@ html{
 }
 .nav-bar .menu li a{
     display: block;
-    color:whitesmoke;
+    color:white;
     margin-left: 20px;
     font-size: 18px;
     transition: color 0.3s ease;
