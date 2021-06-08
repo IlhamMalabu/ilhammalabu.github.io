@@ -12,15 +12,18 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-  <div class= nav-bar>
+    <div class= "nav-bar">
         <div class="max-width">
             <div class="brand"><a href="#home">ZAINABU MALABU</a></div>
             <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#aboutme">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#aboutme" class="menu-btn">About</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </div>
 
@@ -45,14 +48,14 @@
             <h2 class="title">About Me</h2>
             <div class="about-content">
                 <div class="column-left">
-                    <img src="Images/IMG_0458.JPG" alt="">
+                    <img src="images/IMG_0458.JPG" alt="">
                 </div>
                 <div class="column-right">
                     <div class="abouts">
                 <div class="who">
                     <h2 class="hope">Who Am I</h2>
                     <p class="text">
-                        A Nigerian girl who is enthusiastic about STEM. 
+                        A Nigerian girl who is enthusiastic about STEM and Tech.
                     </p>
                 </div>
                 <div class="hope">
@@ -110,22 +113,22 @@
         <div class="row text-center contact-section">
             <div class="col-sm-2">
                 <a href="https://github.com/IlhamMalabu" target="_blank" title="External link to my Github Account">
-                    <i class="fa fa-github"></i>
+                    <i class="fa fa-github" id="btn"></i>
                 </a>
             </div>
             <div class="col-sm-2">
                 <a href="https://twitter.com/ilhammalabu" target="_blank" title="External link to my Twitter Account">
-                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-twitter" id="btn"></i>
                 </a>
             </div>
             <div class="col-sm-2">
                 <a href="https://instagram.com/ilham.malabu" target="_blank" title="External link to my Instagram Account">
-                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-instagram" id="btn"></i>
                 </a>
             </div>
             <div class="col-sm-2">
                 <a href="https://youtube.com/c/ilhammalabu" target="_blank" title="External link to my Youtube">
-                    <i class="fa fa-youtube"></i>
+                    <i class="fa fa-youtube" id="btn"></i>
                 </a>
             </div>
         </div>
