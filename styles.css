@@ -66,7 +66,7 @@ html{
     display:flex;
     background:rgb(253, 232, 236);
     height: 100vh;
-    color: white;
+    color: #DEDEDE;
     min-height: 500px;
 }
 .home .max-width{
