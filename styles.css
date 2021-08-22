@@ -64,7 +64,7 @@ html{
 /*home style*/
 .home{
     display:flex;
-    background: url("background3.jpg") no-repeat center, rgb(253, 232, 236);
+    background:rgb(253, 232, 236);
     height: 100vh;
     color: white;
     min-height: 500px;
