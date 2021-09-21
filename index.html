@@ -1,119 +1,188 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZAINABU MALABU</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="public/styles/style.css">
     <script src="https://kit.fontawesome.com/ebf5f49d8c.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
-<body>
-    <div class= "nav-bar">
-        <div class="max-width">
-            <div class="brand"><a href="#home">ZAINABU MALABU</a></div>
-            <ul class="menu">
-                <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#aboutme" class="menu-btn">About</a></li>
-                <li><a href="#projects" class="menu-btn">Projects</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
-            </ul>
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
-    </div>
 
-    <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <div class="text-1">Hello, I'm </div>
-                <div class="text-2">Zainabu Malabu</div>
-                <div class="text-1"> Computer Engineering Undegraduate <p> </p> and Developer. </div>
-            </div>
+<body class="bg-bg2 text-text font-mono">
+    <header
+        class="flex items-center md:justify-between lg:justify-between py-5 px-10 bg-gray-400 sticky top-0 z-50 backdrop-filter backdrop-blur-lg bg-opacity-30">
+        <div class="">
+            Zainabu Malabu
         </div>
-    </section>
-    <section class="about" id="aboutme">
-        <div class="max-width">
-            <h2 class="title">About Me</h2>
-            <div class="about-content">
-                <div class="column-left">
-                    <img src="mywebsite.jpg" alt="">
+        <ul class="flex invisible  md:items-center lg:items-center md:visible lg:visible">
+            <li class="px-2"><a href="#about">about me</a></li>
+            <li class="px-2"><a href="#projects">projects</a></li>
+            <li class="px-2"><a href="#skills">skills</a></li>
+            <span class="visible">
+                <li class="px-2"><a href="Zainabu_Malabu_Resume_new.pdf" target="_blank" target="_blank"
+                        class="border border-square rounded-md px-3 py-2 hover:text-xs hover:bg-bg3 cursor-pointer">Resume</a>
+                    <span class="absolute inline-flex h-3 w-3 rounded-full bg-bg3 -my-2 -mx-2"><span
+                            class="relative animate-ping inline-flex rounded-full h-3 w-3 bg-bg3"></span></span>
+
+                </li>
+            </span>
+        </ul>
+    </header>
+    <main class="relative">
+        <section class=" h-screen flex flex-col justify-center p-5 text-center">
+            <img class="h-24 flex justify-center" src="svgs/cloud.svg" alt="">
+
+            <div>
+                <div class="py-2 text-sm ">Hi, my name is</div>
+                <div class="text-6xl font-serif tracking-wider font-bold ">
+                    Zainabu Malabu
                 </div>
-                <div class="column-right">
-                    <div class="abouts">
-                <div class="who">
-                    <h2 class="hope">Who Am I</h2>
-                    <p class="text">
-                        A Nigerian girl who is enthusiastic about STEM.
-                    </p>
+                <div class="py-3 text-sm "> computer engineering undegraduate and aspiring developer</div>
+            </div>
+            <div class="mt-12 ">
+                <a href="#about"><i class="fas fa-chevron-down animate-bounce"></i></a>
+            </div>
+
+        </section>
+        <section id="about" class="flex flex-col justify-center mb-28 pt-24">
+            <div class="text-center font-serif text-4xl font-bold tracking-wide pb-5">about me</div>
+            <div class="p-12 text-lg xl:mx-20">Hello, my name is Zainabu. I am currently a junior studying Computer
+                engineering at the
+                American University of Nigeria. I recently started Web Development in June 2021 out of curiosity but
+                I've come
+                to fall in love with it and i'm considering a career in software development. I am currently looking for
+                internships that will help me grow and gain experience. In my free time, I make youtube videos and binge
+                watch sitcoms :) </div>
+            <img class="h-24 flex justify-start" src="svgs/cloud.svg" alt="">
+        </section>
+        <section class="mb-28 items-center pt-24" id="projects">
+            <div class="text-center font-serif text-4xl font-bold tracking-wide pb-5">Projects</div>
+            <div class="flex flex-col justify-center items-center lg:mx-24">
+                <div
+                    class="flex flex-col h-1/2 w-1/2 m-5 bg-bg3 border border-square rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+                    <div class="flex items-center justify-between">
+                        <div class="flex flex-col py-2 px-5 font-bold">GPA Calculator <span
+                                class="font-light">2021</span>
+                        </div>
+                        <div class="px-3">
+                            <a href="https://distracted-jepsen-cf513e.netlify.app/" target="_blank"><i
+                                    class="fas fa-globe cursor-pointer"></i></a>
+                            <a href="https://github.com/IlhamMalabu/GPACalculator" target="_blank"><i
+                                    class="fab fa-github cursor-pointer"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        A 4.0 scale GPA Calculator with max of 10 subjects. Displays GPA and also, academic standing.
+                        Hosted
+                        on Netlify.
+                    </div>
+                    <div class="border-t-2 border-text px-2 mx-2"></div>
+                    <div class="p-3">
+                        TailwindCSS Javascript
+                    </div>
                 </div>
-                <div class="hope">
-                    <h2 class="hope">What I hope to do</h2>
-                    <p class="text">
-                        <em> "We'll find a way, we always have. If there's no way, we'll redraw the map"
-                        <br>
-                        -Kim Namjoon.
-                        </em>
-                        <br>
-                        <br>
-                        By understanding computers, which is a huge part of 
-                        our everyday lives, I can create solutions to peoples problems. Every problem has a solution and what is between 
-                        the problem and the solution is how hard we are willing to try.
-                    </p>
+                <div
+                    class="flex flex-col h-1/2 w-1/2 m-5 bg-bg3 border border-square rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                    <div class="flex items-center md:justify-between lg:justify-between">
+                        <div class="flex flex-col py-2 px-5 font-bold">zainabumalabu.com<span
+                                class="font-light">2021</span>
+                        </div>
+                        <div class="pr-5">
+                            <a href="https://github.com/IlhamMalabu/IlhamMalabu.github.io" target="_blank"><i
+                                    class="fab fa-github cursor-pointer"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        Personal Portfolio built from scratch.
+                    </div>
+                    <div class="border-t-2 border-text px-2 mx-2"></div>
+                    <div class="p-3">
+                        TailwindCSS Javascript
+                    </div>
                 </div>
-                <div class="doing-now">
-                    <h2 class="doing-now">What I'm doing now</h2>
-                    <p class ="text">
-                        I am pursuing a bachelors degree in Computer Engineering at the American University of Nigeria.
-                        I have experience with web development(HTML, CSS and JS) and Python. 
-                    </p>
-                    <p class ="text">
-                        In addition to coding and learning new tech, I enjoy making Youtube videos, listening to BTS and binge-watching sitcoms.
-                        If any of these things interest you, I'd love to chat!
-                    </p>
+        </section>
+        <section class="mb-16 pt-24" id="skills">
+            <div class="text-center font-serif text-4xl font-bold tracking-wide pb-5">Skills</div>
+            <div class="flex justify-around">
+                <div>
+                    <div class="font-bold font-serif pb-5 text-2xl">
+                        Languages
+                    </div>
+
+                    <div class="pr-2 pb-2 font-semibold text-lg">
+                        Javascript
+                    </div>
+                    <div class="pr-2 pb-2 font-semibold text-lg">
+                        Python
+                    </div>
+                    <div class="pr-2 pb-2 font-semibold text-lg">
+                        HTML
+                    </div>
+                    <div class="pr-2 pb-2 font-semibold text-lg">
+                        CSS
+                    </div>
+                </div>
+                <div>
+                    <div class="font-bold font-serif pb-5 text-2xl">Technologies</div>
+                    <div class="pr-2 pb-2 font-semibold text-lg">
+                        ReactJS
+                    </div>
+                    <div class="pr-2 pb-2 font-semibold text-lg">
+                        ExpressJS
+                    </div>
+                    <div class="pr-2 pb-2 font-semibold text-lg">
+                        TailwindCSS
+                    </div>
+                    <div class="pr-2 pb-2 font-semibold text-lg">
+                        MATLAB
+                    </div>
                 </div>
             </div>
+            </div>
+            <div class="flex justify-center">
+                <img class="h-24" src="svgs/cloud.svg" alt="">
+            </div>
+        </section>
+        <section class="text-center font-serif text-4xl font-bold tracking-wide pb-5 mb-6 pt-24" id="contact">
+            <div class="pb-5">
+                Contact
+            </div>
+            <div class="flex space-x-24 justify-center p-5">
+                <div>
+                    <a href="https://github.com/IlhamMalabu" target="_blank" title="External link to my Github Account">
+                        <i class="fa fa-github" id="contact-btn"></i>
+                    </a>
                 </div>
-                
+                <div>
+                    <a href="https://twitter.com/ilhamcodes" target="_blank"
+                        title="External link to my Twitter Account">
+                        <i class="fa fa-twitter" id="contact-btn"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://youtube.com/c/ilhammalabu" target="_blank" title="External link to my Youtube">
+                        <i class="fa fa-youtube" id="contact-btn"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://instagram.com/ilham.malabu" target="_blank"
+                        title="External link to my Instagram Account">
+                        <i class="fa fa-instagram" id="contact-btn"></i>
+                    </a>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="projects" id="projects">
-        <div class="max-width">
-        <h1 class="text-center project">Projects</h1>
-        <h1 class="content-project"> Please check back soon. Projects will be uploaded shortly :)</h1>
-        </div>
-    </section>
-    <section class="contact" id="contact">
-        <h2 class="text-center">Contact</h2>
-        <div class="row text-center contact-section">
-            <div class="col-sm-2">
-                <a href="https://github.com/IlhamMalabu" target="_blank" title="External link to my Github Account">
-                    <i class="fa fa-github" id="btn"></i>
-                </a>
-            </div>
-            <div class="col-sm-2">
-                <a href="https://twitter.com/ilhammalabu" target="_blank" title="External link to my Twitter Account">
-                    <i class="fa fa-twitter" id="btn"></i>
-                </a>
-            </div>
-            <div class="col-sm-2">
-                <a href="https://instagram.com/ilham.malabu" target="_blank" title="External link to my Instagram Account">
-                    <i class="fa fa-instagram" id="btn"></i>
-                </a>
-            </div>
-            <div class="col-sm-2">
-                <a href="https://youtube.com/c/ilhammalabu" target="_blank" title="External link to my Youtube">
-                    <i class="fa fa-youtube" id="btn"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-   
-    <script src="script.js"></script>
+        </section>
+    </main>
+    <footer class="text-center mb-5">
+        Copyright 2021 © Zainabu Malabu
+    </footer>
+    <script src="script.js" async defer></script>
 </body>
+
 </html>
