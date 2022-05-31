@@ -1,20 +1,17 @@
-<!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Zainabu Malabu</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <script src="https://kit.fontawesome.com/ebf5f49d8c.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="bg-bg2 text-text font-mono">
+<body class="bg-c-yellow font-serif">
     <header
-        class="flex items-center md:justify-between lg:justify-between py-5 px-10 bg-gray-400 sticky top-0 z-50 backdrop-filter backdrop-blur-lg bg-opacity-30">
+        class="sticky top-0 z-50 backdrop-filter backdrop-blur-lg bg-opacity-30 flex items-center md:justify-between lg:justify-between py-5 px-10 bg-gray-100 ">
         <div class="">
             Zainabu Malabu
         </div>
@@ -23,10 +20,10 @@
             <li class="px-2"><a href="#projects">projects</a></li>
             <li class="px-2"><a href="#skills">skills</a></li>
             <span class="visible">
-                <li class="px-2"><a href="Zainabu_Malabu_Res.pdf" target="_blank" target="_blank"
-                        class="border border-square rounded-md px-3 py-2 hover:text-xs hover:bg-bg3 cursor-pointer">resume</a>
-                    <span class="absolute inline-flex h-3 w-3 rounded-full bg-bg3 -my-2 -mx-2"><span
-                            class="relative animate-ping inline-flex rounded-full h-3 w-3 bg-bg3"></span></span>
+                <li class="px-2"><a href="Zainabu_Malabu_Resume.pdf" target="_blank" target="_blank"
+                        class="border border-square border-c-green rounded-md px-3 py-2 hover:font-semibold hover:bg-c-yellow cursor-pointer">resume</a>
+                    <span class="absolute inline-flex h-3 w-3 rounded-full bg-c-green -my-2 -mx-2"><span
+                            class="relative animate-ping inline-flex rounded-full h-3 w-3 bg-c-green"></span></span>
 
                 </li>
             </span>
@@ -34,39 +31,35 @@
     </header>
     <main class="relative">
         <section class=" h-screen flex flex-col justify-center p-5 text-center">
-            <img class="h-24 flex justify-center" src="svgs/cloud.svg" alt="">
-
-            <div>
-                <div class="py-2 text-sm ">Hi, my name is</div>
-                <div class="text-6xl font-serif tracking-wider font-bold ">
+            <div class="relative">
+                <div class="py-2 text-lg">Hi, my name is</div>
+                <div id="name" class="text-8xl m-6 font-serif tracking-wider font-bold text-c-green">
                     Zainabu Malabu
                 </div>
-                <div class="py-3 text-sm "> computer engineering undegraduate and front-end web developer</div>
+                <div class="py-3 text-lg "> computer engineering undergraduate and tech enthusiast</div>
             </div>
-            <div class="mt-12 ">
-                <a href="#about"><i class="fas fa-chevron-down animate-bounce"></i></a>
+            <div class="">
+                <a href="#about"><i class="fas fa-chevron-down animate-bounce text-2xl"></i></a>
             </div>
-
         </section>
         <section id="about" class="flex flex-col justify-center mb-28 pt-24">
             <div class="text-center font-serif text-4xl font-bold tracking-wide pb-5">about me</div>
-            <div class="p-12 text-lg xl:mx-20">Hello, my name is Zainabu Ilham. I am currently a junior studying
-                Computer
-                engineering at the
-                American University of Nigeria. In my free time, I listen to a lot of pop music and binge
-                watch the same sitcoms :) </div>
-            <img class="h-24 flex justify-start" src="svgs/cloud.svg" alt="">
-            <div class="flex flex-col justify-center items-center px-2">
+            <div class="p-12 text-xl xl:mx-20"> I am currently a 4th year student
+                studying Computer Engineering at the American University of Nigeria. My areas of interest include
+                Artificial Intelligence (Deep Learning) and Creative Coding. I am highly resourceful and also a team
+                player. In my free time, I enjoy listening to music and making Youtube videos.
+            </div>
+            <div class="flex flex-col justify-center items-center text-lg">
                 <p>"<a id="quote">Someday, somewhere- anywhere, unfailingly, you'll find yourself, and that, and only
                         that, can be the happiest or bitterest hour of your life</a>"</p>
                 <p>-<a id="person">Pablo Neruda</a></p>
             </div>
         </section>
         <section class="mb-28 items-center pt-24" id="projects">
-            <div class="text-center font-serif text-4xl font-bold tracking-wide pb-5">Projects</div>
+            <div class="text-center font-serif text-4xl font-bold tracking-wide pb-5">projects</div>
             <div class="flex flex-row  justify-center items-center lg:mx-24">
                 <div
-                    class="flex flex-col h-80 w-72 m-5 bg-bg3 border border-square rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+                    class="flex flex-col h-80 w-72 m-5 bg-c-green border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
                     <div class="flex pt-5 items-center">
                         <div class="flex flex-col py-2 px-5 font-bold">GPA Calculator <span
                                 class="font-light">2021</span>
@@ -79,7 +72,7 @@
 
                         </div>
                     </div>
-                    <div class="border-t-2 border-text px-2 mx-2"></div>
+                    <div class="border-t-2 border-text px-2 mx-2 border-black"></div>
                     <div class="p-3">
                         A 4.0 scale GPA Calculator with max of 10 subjects. Displays GPA and also, academic standing.
                         Hosted
@@ -90,7 +83,7 @@
                     </div>
                 </div>
                 <div
-                    class="flex flex-col h-80 w-72 m-5 bg-bg3 border border-square rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                    class="flex flex-col h-80 w-72 m-5 bg-c-pink border-t-2 border-l-2 border-r-4 border-b-4 border-black  rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                     <div class="flex items-center md:justify-between lg:justify-between pt-5">
                         <div class="flex flex-col py-2 px-5 font-bold">zainabumalabu.com<span
                                 class="font-light">2021</span>
@@ -101,7 +94,7 @@
 
                         </div>
                     </div>
-                    <div class="border-t-2 border-text px-2 mx-2"></div>
+                    <div class="border-t-2 border-text px-2 mx-2 border-black"></div>
                     <div class="p-3">
                         Personal Portfolio built from scratch.
                     </div>
@@ -110,7 +103,7 @@
                     </div>
                 </div>
                 <div
-                    class="flex flex-col h-80 w-72 m-5 bg-bg3 border border-square rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+                    class="flex flex-col h-80 w-72 m-5 bg-c-purple border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
                     <div class="flex pt-5 items-center">
                         <div class="flex flex-col py-2 px-5 font-bold">Quotes Generator API<span
                                 class="font-light">2021</span>
@@ -123,7 +116,7 @@
 
                         </div>
                     </div>
-                    <div class="border-t-2 border-text px-2 mx-2"></div>
+                    <div class="border-t-2 border-text px-2 mx-2 border-black"></div>
                     <div class="p-3">
                         A motivational quotes generator API using Node and Express. Hosted on Heroku
                     </div>
@@ -133,7 +126,7 @@
                     </div>
                 </div>
                 <div
-                    class="flex flex-col h-80 w-72 m-5 bg-bg3 border border-square rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+                    class="flex flex-col h-80 w-72 m-5 bg-c-green border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
                     <div class="flex pt-5 items-center justify-between">
                         <div class="flex flex-col py-2 px-5 font-bold">Moodboard <span class="font-light">2021</span>
                         </div>
@@ -143,7 +136,7 @@
 
                         </div>
                     </div>
-                    <div class="border-t-2 border-text px-2 mx-2"></div>
+                    <div class="border-t-2 border-text px-2 mx-2 border-black"></div>
                     <div class="p-3">
                         Full-Stack Application that allows users to share posts. Users can like, comment and post.
                     </div>
@@ -171,16 +164,13 @@
                         Java
                     </div>
                     <div class="pr-2 pb-2 font-semibold text-lg">
-                        HTML
-                    </div>
-                    <div class="pr-2 pb-2 font-semibold text-lg">
-                        CSS
+                        HTML/CSS
                     </div>
                 </div>
                 <div>
                     <div class="font-bold font-serif pb-5 text-2xl">Technologies</div>
                     <div class="pr-2 pb-2 font-semibold text-lg">
-                        React
+                        TensorFlow
                     </div>
                     <div class="pr-2 pb-2 font-semibold text-lg">
                         Express
@@ -189,16 +179,13 @@
                         TailwindCSS
                     </div>
                     <div class="pr-2 pb-2 font-semibold text-lg">
-                        MATLAB
+                        React
                     </div>
                     <div class="pr-2 pb-2 font-semibold text-lg">
-                        Figma
+                        P5.js
                     </div>
                 </div>
             </div>
-            </div>
-            <div class="flex justify-center">
-                <img class="h-24" src="svgs/cloud.svg" alt="">
             </div>
         </section>
         <section class="text-center font-serif text-4xl font-bold tracking-wide pb-5 mb-6 pt-24" id="contact">
@@ -235,6 +222,7 @@
         Copyright 2021 © Zainabu Malabu
     </footer>
     <script src="main.js" async defer></script>
+    </main>
 </body>
 
 </html>

@@ -1,25 +1,16 @@
 {
-  "name": "ilhammalabu.github.io",
+  "name": "new-website",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "postcss public/styles/tailwind.css -o public/styles/style.css"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/IlhamMalabu/IlhamMalabu.github.io.git"
+    "tw:build": "tailwindcss build ./src/css/tailwind.css -o ./public/css/style.css"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/IlhamMalabu/IlhamMalabu.github.io/issues"
-  },
-  "homepage": "https://github.com/IlhamMalabu/IlhamMalabu.github.io#readme",
-  "dependencies": {
-    "autoprefixer": "^10.3.4",
-    "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.2.15"
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
   }
 }
