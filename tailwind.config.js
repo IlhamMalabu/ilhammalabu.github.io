@@ -1,7 +1,9 @@
 module.exports = {
   purge: {
     node: 'layers',
-    content: ['./public/**/*.html'],
+    content: [
+      "./node_modules/flowbite/**/*.js"
+  ]
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -18,5 +20,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+]
 }

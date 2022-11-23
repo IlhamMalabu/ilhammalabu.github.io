@@ -3,13 +3,14 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Zainabu Malabu</title>
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://kit.fontawesome.com/ebf5f49d8c.js" crossorigin="anonymous"></script>
+    <script src="main.js" async defer></script>
 </head>
 
-<body class="bg-c-yellow font-serif">
+<body class="bg-c-yellow font-serif ">
     <header
         class="sticky top-0 z-50 backdrop-filter backdrop-blur-lg bg-opacity-30 flex items-center md:justify-between lg:justify-between py-5 px-10 bg-gray-100 ">
         <div class="">
@@ -20,7 +21,7 @@
             <li class="px-2"><a href="#projects">projects</a></li>
             <li class="px-2"><a href="#skills">skills</a></li>
             <span class="visible">
-                <li class="px-2"><a href="Zainabu_Malabu_Resume.pdf" target="_blank" target="_blank"
+                <li class="px-2"><a href="RESUME 2022.pdf" target="_blank" target="_blank"
                         class="border border-square border-c-green rounded-md px-3 py-2 hover:font-semibold hover:bg-c-yellow cursor-pointer">resume</a>
                     <span class="absolute inline-flex h-3 w-3 rounded-full bg-c-green -my-2 -mx-2"><span
                             class="relative animate-ping inline-flex rounded-full h-3 w-3 bg-c-green"></span></span>
@@ -29,11 +30,13 @@
             </span>
         </ul>
     </header>
+    
     <main class="relative">
-        <section class=" h-screen flex flex-col justify-center p-5 text-center">
+        
+        <section class="h-screen flex flex-col justify-center text-center">
             <div>
                 <div class="py-2 text-lg">Hi, my name is</div>
-                <div id="name" class="text-8xl m-6 font-serif tracking-wider font-bold text-c-green">
+                <div id="name" class=" text-4xl m-6 font-serif tracking-wider font-bold text-c-green  md:text-8xl lg:text-8xl xl:text-8xl 2xl:text-8xl">
                     Zainabu Malabu
                 </div>
                 <div class="py-3 text-lg "> computer engineering undergraduate and tech enthusiast</div>
@@ -42,119 +45,199 @@
                 <a href="#about"><i class="fas fa-chevron-down animate-bounce text-2xl"></i></a>
             </div>
         </section>
+
         <section id="about" class="flex flex-col justify-center mb-28 pt-24">
             <div class="text-center font-serif text-4xl font-bold tracking-wide pb-5">about me</div>
             <div class="p-12 text-xl xl:mx-20"> I am currently a 4th year student
                 studying Computer Engineering at the American University of Nigeria. My areas of interest include
-                Artificial Intelligence (Deep Learning) and Creative Coding. I am highly resourceful and also a team
+                Data Science and Front-end Development. I am highly resourceful and also a team
                 player. In my free time, I enjoy listening to music and making Youtube videos.
             </div>
-            <div class="flex flex-col justify-center items-center text-lg">
-                <p>"<a id="quote">Someday, somewhere- anywhere, unfailingly, you'll find yourself, and that, and only
+            <div class="flex flex-col justify-center items-center text-lg px-12 ">
+                <p class="">"<a id="quote">Someday, somewhere- anywhere, unfailingly, you'll find yourself, and that, and only
                         that, can be the happiest or bitterest hour of your life</a>"</p>
                 <p>-<a id="person">Pablo Neruda</a></p>
             </div>
         </section>
+        
         <section class="mb-28 items-center pt-24" id="projects">
             <div class="text-center font-serif text-4xl font-bold tracking-wide pb-5">projects</div>
-            <div class="flex flex-row  justify-center items-center lg:mx-24">
-                <div
-                    class="flex flex-col h-80 w-72 m-5 bg-c-green border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
-                    <div class="flex pt-5 items-center">
-                        <div class="flex flex-col py-2 px-5 font-bold">GPA Calculator <span
-                                class="font-light">2021</span>
+                <div class="flex flex-col justify-center items-center md:mx-24 flex-row xl:mx-24 flex-row 2xl:mx-24 flex-row lg:mx-24 flex-row"> 
+                    <div
+                        class="flex flex-col h-80 w-72 m-5 bg-c-green border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+                        <div class="flex pt-5 items-center justify-between">
+                            <div class="flex flex-col py-2 px-5 font-bold">Studybud. <span class="font-light">2022</span>
+                            </div>
+                            <div class="px-3">
+                                <a href="https://github.com/IlhamMalabu/studybud" target="_blank"><i
+                                        class="fab fa-github cursor-pointer"></i></a>
+                                        <a href="https://studybud1.vercel.app" target="_blank"><i
+                                            class="fas fa-globe cursor-pointer"></i></a>       
+    
+                            </div>
                         </div>
-                        <div class="px-3">
-                            <a href="https://distracted-jepsen-cf513e.netlify.app/" target="_blank"><i
-                                    class="fas fa-globe cursor-pointer"></i></a>
-                            <a href="https://github.com/IlhamMalabu/GPACalculator" target="_blank"><i
-                                    class="fab fa-github cursor-pointer"></i></a>
-
+                        <div class="border-t-2 border-text px-2 mx-2 border-black "></div>
+                        <div class="p-3">
+                            Study Application with To-do, Pomodoro Timer and GPA Calculator
                         </div>
-                    </div>
-                    <div class="border-t-2 border-text px-2 mx-2 border-black"></div>
-                    <div class="p-3">
-                        A 4.0 scale GPA Calculator with max of 10 subjects. Displays GPA and also, academic standing.
-                        Hosted
-                        on Netlify.
-                    </div>
-                    <div class="p-3">
-                        TailwindCSS Javascript
-                    </div>
-                </div>
-                <div
-                    class="flex flex-col h-80 w-72 m-5 bg-c-pink border-t-2 border-l-2 border-r-4 border-b-4 border-black  rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                    <div class="flex items-center md:justify-between lg:justify-between pt-5">
-                        <div class="flex flex-col py-2 px-5 font-bold">zainabumalabu.com<span
-                                class="font-light">2021</span>
-                        </div>
-                        <div class="pr-5">
-                            <a href="https://github.com/IlhamMalabu/IlhamMalabu.github.io" target="_blank"><i
-                                    class="fab fa-github cursor-pointer"></i></a>
-
+    
+                        <div class="p-3 mt-auto pb-7">
+                            React Firebase 
                         </div>
                     </div>
-                    <div class="border-t-2 border-text px-2 mx-2 border-black"></div>
-                    <div class="p-3">
-                        Personal Portfolio built from scratch.
-                    </div>
-                    <div class="p-3 mt-auto pb-7">
-                        TailwindCSS Javascript
-                    </div>
-                </div>
-                <div
+                    <div
                     class="flex flex-col h-80 w-72 m-5 bg-c-purple border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
-                    <div class="flex pt-5 items-center">
+                    <div class="flex pt-5 items-center justify-between">
                         <div class="flex flex-col py-2 px-5 font-bold">Quotes Generator API<span
                                 class="font-light">2021</span>
                         </div>
                         <div class="px-3">
-                            <a href="https://motivational-quote-api.herokuapp.com" target="_blank"><i
+                            <a href="https://motivational-quotes-api.onrender.com" target="_blank"><i
                                     class="fas fa-globe cursor-pointer"></i></a>
                             <a href="https://github.com/IlhamMalabu/quotes-api" target="_blank"><i
                                     class="fab fa-github cursor-pointer"></i></a>
-
+    
                         </div>
                     </div>
                     <div class="border-t-2 border-text px-2 mx-2 border-black"></div>
                     <div class="p-3">
-                        A motivational quotes generator API using Node and Express. Hosted on Heroku
+                        A motivational quotes generator API using Node.
                     </div>
-
+    
                     <div class="p-3 mt-auto pb-7">
                         Node Express
                     </div>
                 </div>
                 <div
-                    class="flex flex-col h-80 w-72 m-5 bg-c-green border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
-                    <div class="flex pt-5 items-center justify-between">
-                        <div class="flex flex-col py-2 px-5 font-bold">Moodboard <span class="font-light">2021</span>
-                        </div>
-                        <div class="px-3">
-                            <a href="https://github.com/IlhamMalabu/moodboard" target="_blank"><i
-                                    class="fab fa-github cursor-pointer"></i></a>
+                class="flex flex-col h-80 w-72 m-5 bg-c-green border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+                <div class="flex pt-5 items-center justify-between">
+                    <div class="flex flex-col py-2 px-5 font-bold">Moodboard <span class="font-light">2021</span>
+                    </div>
+                    <div class="px-3">
+                        <a href="https://github.com/IlhamMalabu/moodboard" target="_blank"><i
+                                class="fab fa-github cursor-pointer"></i></a>
+    
+                    </div>
+                </div>
+                <div class="border-t-2 border-text px-2 mx-2 border-black"></div>
+                <div class="p-3">
+                    Full-Stack Application that allows users to share posts. Users can like, comment and post.
+                </div>
+    
+                <div class="p-3 mt-auto pb-7">
+                    React Firebase MaterialUI
+                </div>
+            </div>
+            <div
+            class="flex flex-col h-80 w-72 m-5 bg-c-pink border-t-2 border-l-2 border-r-4 border-b-4 border-black  rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex pt-5 items-center justify-between">
+                <div class="flex flex-col py-2 px-5 font-bold">zainabumalabu.com<span
+                        class="font-light">2021</span>
+                </div>
+                <div class="pr-5">
+                    <a href="https://github.com/IlhamMalabu/IlhamMalabu.github.io" target="_blank"><i
+                            class="fab fa-github cursor-pointer"></i></a>
+    
+                </div>
+            </div>
+            <div class="border-t-2 border-text px-2 mx-2 border-black"></div>
+            <div class="p-3">
+                Personal Portfolio.
+            </div>
+            <div class="p-3 mt-auto pb-7">
+                TailwindCSS Javascript
+            </div>
+        </div>
+    </div>
+                </div>
+                <div class="flex flex-col justify-center items-center md:mx-24 flex-row xl:mx-24 flex-row 2xl:mx-24 flex-row lg:mx-24 flex-row">
+                    <div
+                    class = "flex flex-col h-80 w-72 m-5 bg-c-purple border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+        <div class="flex flex-row pt-5 items-center justify-between">
+            <div class="flex flex-col py-2 px-5 font-bold">GPA Calculator <span
+                    class="font-light">2021</span>
+            </div>
+            <div class="px-3">
+                <a href="https://distracted-jepsen-cf513e.netlify.app/" target="_blank"><i
+                        class="fas fa-globe cursor-pointer"></i></a>
+                <a href="https://github.com/IlhamMalabu/GPACalculator" target="_blank"><i
+                        class="fab fa-github cursor-pointer"></i></a>
+    
+            </div>
+        </div>
+        <div class="border-t-2 border-text px-2 mx-2 border-black"></div>
+        <div class="p-3">
+            A 4.0 scale GPA Calculator.
+        </div>
+        <div class="p-3 mt-auto pb-7">
+            TailwindCSS Javascript
+        </div>
+                </div>
 
-                        </div>
-                    </div>
-                    <div class="border-t-2 border-text px-2 mx-2 border-black"></div>
-                    <div class="p-3">
-                        Full-Stack Application that allows users to share posts. Users can like, comment and post.
-                    </div>
-
-                    <div class="p-3 mt-auto pb-7">
-                        React Firebase MaterialUI
-                    </div>
+                <div
+        class="flex flex-col h-80 w-72 m-5 bg-c-green border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+        <div class="flex pt-5 items-center">
+            <div class="flex flex-col py-2 px-5 font-bold">STEM Outreach Program (IEEE)<span
+                    class="font-light">2021</span>
+            </div>
+            <div class="px-3">
+                <a href="./stem.html" ><i
+                        class="fas fa-globe cursor-pointer"></i></a>
+                
+            </div>
+        </div>
+        <div class="border-t-2 border-text px-2 mx-2 border-black"></div>
+        <div class="p-3">
+            Initiated a STEM Outreach Program with the purpose of inspiring and educating secondary school students in the community to pursue careers in STEM. 
+        </div>
+        
+                </div>
+                <div
+        class="flex flex-col h-80 w-72 m-5 bg-c-pink border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+        <div class="flex pt-5 items-center">
+            <div class="flex flex-col py-2 px-5 font-bold">Breast Cancer Classification using Machine Learning<span
+                    class="font-light">2022</span>
+            </div>
+            <div class="px-3">
+                <a href="https://github.com/IlhamMalabu/Breast-Cancer-Classification" ><i
+                        class="fas fa-globe cursor-pointer"></i></a>
+                
+            </div>
+        </div>
+        <div class="border-t-2 border-text px-2 mx-2 border-black"></div>
+        <div class="p-3">
+            Classification of Breast Cancer Cells using various machine learning models. Also includes EDA and Data Visualization.
+        </div>
+        
+                </div>
+                <div
+        class="flex flex-col h-80 w-72 m-5 bg-c-green border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+        <div class="flex pt-5 items-center">
+            <div class="flex flex-col py-2 px-5 font-bold">Spotify Tracks EDA<span
+                    class="font-light">2022</span>
+            </div>
+            <div class="px-3">
+                <a href="https://github.com/IlhamMalabu/Spotify-Tracks-EDA" ><i
+                        class="fas fa-globe cursor-pointer"></i></a>
+                
+            </div>
+        </div>
+        <div class="border-t-2 border-text px-2 mx-2 border-black"></div>
+        <div class="p-3">
+            Performed exploratory data analysis on track data from Spotify using NumPy, Pandas, Matplotlib and Seaborn.
+        </div>
+        
+                </div>
                 </div>
         </section>
         <section class="mb-16 pt-24" id="skills">
             <div class="text-center font-serif text-4xl font-bold tracking-wide pb-5">Skills</div>
-            <div class="flex justify-around">
-                <div>
-                    <div class="font-bold font-serif pb-5 text-2xl">
+            <div class="flex flex-col m-20 md:flex-row lg:flex-row xl:flex-row 2xl:flex-row ">
+                <div class="px-12 ">
+                    <div class="font-bold font-serif text-center pb-5 text-2xl">
                         Languages
                     </div>
-
-                    <div class="pr-2 pb-2 font-semibold text-lg">
+                    <div class=" ml-6 pb-2 font-semibold text-lg">
                         Javascript
                     </div>
                     <div class="pr-2 pb-2 font-semibold text-lg">
@@ -164,25 +247,28 @@
                         Java
                     </div>
                     <div class="pr-2 pb-2 font-semibold text-lg">
+                        SQL
+                    </div>
+                    <div class="pr-2 pb-2 font-semibold text-lg">
                         HTML/CSS
                     </div>
                 </div>
-                <div>
-                    <div class="font-bold font-serif pb-5 text-2xl">Technologies</div>
-                    <div class="pr-2 pb-2 font-semibold text-lg">
-                        TensorFlow
-                    </div>
-                    <div class="pr-2 pb-2 font-semibold text-lg">
-                        Express
-                    </div>
-                    <div class="pr-2 pb-2 font-semibold text-lg">
-                        TailwindCSS
-                    </div>
+                <div >
+                    <div class="font-bold font-serif text-center pb-5 text-2xl">Technologies</div>
                     <div class="pr-2 pb-2 font-semibold text-lg">
                         React
                     </div>
                     <div class="pr-2 pb-2 font-semibold text-lg">
-                        P5.js
+                        Express/Node
+                    </div>
+                    <div class="pr-2 pb-2 font-semibold text-lg">
+                        PostgreSQL/MySQL
+                    </div>
+                    <div class="pr-2 pb-2 font-semibold text-lg">
+                        Pandas/Matplotlib/ScikitLearn
+                    </div>
+                    <div class="pr-2 pb-2 font-semibold text-lg">
+                        TensorFlow
                     </div>
                 </div>
             </div>
@@ -192,7 +278,7 @@
             <div class="pb-5">
                 Contact
             </div>
-            <div class="flex space-x-24 justify-center p-5">
+            <div class="flex space-x-20 justify-center p-5 md:space-x-24 lg:space-x-24 xl:space-x-24 2xl:space-x-24">
                 <div>
                     <a href="https://github.com/IlhamMalabu" target="_blank" title="External link to my Github Account">
                         <i class="fa fa-github" id="contact-btn"></i>
@@ -221,7 +307,7 @@
     <footer class="text-center mb-5">
         Copyright 2021 © Zainabu Malabu
     </footer>
-    <script src="main.js" async defer></script>
+    
     </main>
 </body>
 

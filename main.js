@@ -11,6 +11,7 @@ function getRandom() {
         .catch((err) => console.log(err))
 }
 
+
 // let names = document.getElementById("name").className;
 // let c1 = '#E8D7FF';
 // let c2 = '#FFD3E8';
