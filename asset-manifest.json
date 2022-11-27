@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.e96321d5.css",
-    "main.js": "/react-gh-pages/static/js/main.9b1b00c8.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.e96321d5.css.map": "/react-gh-pages/static/css/main.e96321d5.css.map",
-    "main.9b1b00c8.js.map": "/react-gh-pages/static/js/main.9b1b00c8.js.map"
+    "main.css": "/ilhammalabu.github.io/static/css/main.e96321d5.css",
+    "main.js": "/ilhammalabu.github.io/static/js/main.9b1b00c8.js",
+    "index.html": "/ilhammalabu.github.io/index.html",
+    "main.e96321d5.css.map": "/ilhammalabu.github.io/static/css/main.e96321d5.css.map",
+    "main.9b1b00c8.js.map": "/ilhammalabu.github.io/static/js/main.9b1b00c8.js.map"
   },
   "entrypoints": [
     "static/css/main.e96321d5.css",
