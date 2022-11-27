@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.e96321d5.css",
-    "main.js": "/static/js/main.5f1ba3f2.js",
-    "static/media/RESUME 2022.pdf": "/static/media/RESUME 2022.8b3277a3502e3e9c248c.pdf",
+    "main.css": "/static/css/main.24b631be.css",
+    "main.js": "/static/js/main.664a06b6.js",
     "index.html": "/index.html",
-    "main.e96321d5.css.map": "/static/css/main.e96321d5.css.map",
-    "main.5f1ba3f2.js.map": "/static/js/main.5f1ba3f2.js.map"
+    "main.24b631be.css.map": "/static/css/main.24b631be.css.map",
+    "main.664a06b6.js.map": "/static/js/main.664a06b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.e96321d5.css",
-    "static/js/main.5f1ba3f2.js"
+    "static/css/main.24b631be.css",
+    "static/js/main.664a06b6.js"
   ]
 }
