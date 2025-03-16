@@ -11,12 +11,15 @@
 </head>
 
 
-<header
+
+
+<body class="bg-c-yellow font-serif overflow-x-hidden">
+    <header
         class="flex flex-row sticky top-0 z-50 backdrop-filter backdrop-blur-lg bg-opacity-30 items-center md:justify-between lg:justify-between py-5 px-10 bg-gray-100 ">
         <div class="flex">
             Zainabu Malabu
         </div>
-        <ul class="flex invisible sm:items-center sm:visible">
+        <ul class="flex invisible sm:items-center sm:invisible">
             <li class="px-2"><a href="#about">about me</a></li>
             <li class="px-2"><a href="#projects">projects</a></li>
             <li class="px-2"><a href="#services">services</a></li>
@@ -30,16 +33,14 @@
             </span>
         </ul>
     </header>
-
-<body class="bg-c-yellow font-serif overflow-x-hidden">
     <main class="relative">
         <section class="h-screen flex flex-col justify-center text-center px-4 md:px-8">
             <div>
                 <div class="py-2 text-lg">Hi, my name is</div>
-                <div id="name" class="text-8xl text-center font-serif tracking-wider font-bold text-c-green">
+                <div id="name" class="text-6xl md:text-8xl text-center font-serif tracking-wider font-bold text-c-green">
                     Zainabu Malabu
                 </div>
-                <div class="py-3 text-lg"> Tech. Creative.</div>
+                <div class="py-3 text-lg"> Engineer. Creative.</div>
             </div>
             <div class="mt-12">
                 <a href="#about"><i class="fas fa-chevron-down animate-bounce text-2xl"></i></a>
@@ -59,123 +60,61 @@
         
         <section class="mb-28 items-center pt-24 flex flex-col" id="projects">
             <div class="text-center font-serif text-4xl font-bold tracking-wide pb-5">projects</div>
-                <div class="flex-col md:flex-row  justify-center items-center md:mx-24 "> 
-                    <div
-                    class="flex flex-col md:flex-row h-80 w-72 m-5 bg-c-pink border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+            <div class="flex flex-col md:flex-row justify-center items-center gap-5 flex-nowrap md:flex-wrap overflow-x-auto md:mx-24">
+                <div class="flex flex-col h-80 w-64 m-5 bg-c-pink border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
                     <div class="flex pt-5 items-center justify-between">
-                        <div class="flex flex-col py-2 px-5 font-bold">YONKI Abuja<span
-                                class="font-light">2023</span>
-                        </div>
+                        <div class="flex flex-col py-2 px-5 font-bold">YONKI Abuja<span class="font-light">2023</span></div>
                         <div class="px-3">
-                            <a href="https://yonkiabuja.com" target="_blank"><i
-                                    class="fas fa-globe cursor-pointer"></i></a>
-                        
+                            <a href="https://yonkiabuja.com" target="_blank"><i class="fas fa-globe cursor-pointer"></i></a>
                         </div>
                     </div>
                     <div class="border-t-2 border-text px-2 mx-2 border-black"></div>
-                    <div class="p-3">
-                        A CMS blog for an art publication.
-                    </div>
-    
-                    <div class="p-3 mt-auto pb-7">
-                        Wordpress
-                    </div>
+                    <div class="p-3">A CMS blog for an art publication.</div>
+                    <div class="p-3 mt-auto pb-7">WordPress</div>
                 </div>
-               
-                    <div
-                        class="flex flex-col h-80 w-72 m-5 bg-c-green border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
-                        <div class="flex pt-5 items-center justify-between">
-                            <div class="flex flex-col py-2 px-5 font-bold">Studybud. <span class="font-light">2022</span>
-                            </div>
-                            <div class="px-3">
-                                <a href="https://github.com/IlhamMalabu/studybud" target="_blank"><i
-                                        class="fab fa-github cursor-pointer"></i></a>
-                                        <a href="https://studybud1.vercel.app" target="_blank"><i
-                                            class="fas fa-globe cursor-pointer"></i></a>       
-    
-                            </div>
-                        </div>
-                        <div class="border-t-2 border-text px-2 mx-2 border-black "></div>
-                        <div class="p-3">
-                            Study Application with To-do, Pomodoro Timer and GPA Calculator
-                        </div>
-    
-                        <div class="p-3 mt-auto pb-7">
-                            React Firebase 
+            
+                <div class="flex flex-col text-wrap h-80 w-64 m-5 bg-c-green border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+                    <div class="flex pt-5 items-center justify-between">
+                        <div class="flex flex-col py-2 px-5 font-bold">Studybud. <span class="font-light">2022</span></div>
+                        <div class="px-3">
+                            <a href="https://github.com/IlhamMalabu/studybud" target="_blank"><i class="fab fa-github cursor-pointer"></i></a>
+                            <a href="https://studybud1.vercel.app" target="_blank"><i class="fas fa-globe cursor-pointer"></i></a>
                         </div>
                     </div>
-                    <div
-                    class="flex flex-col h-80 w-72 m-5 bg-c-purple border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+                    <div class="border-t-2 border-text px-2 mx-2 border-black "></div>
+                    <div class="p-3 ">Study Application with To-do, Pomodoro Timer and GPA Calculator</div>
+                    <div class="p-3 mt-auto pb-7">React Firebase</div>
+                </div>
+            
+                <div class="flex flex-col h-80 w-64 m-5 bg-c-purple border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
                     <div class="flex pt-5 items-center justify-between">
-                        <div class="flex flex-col py-2 px-5 font-bold">Quotes Generator API<span
-                                class="font-light">2021</span>
-                        </div>
+                        <div class="flex flex-col py-2 px-5 font-bold">Quotes Generator API<span class="font-light">2021</span></div>
                         <div class="px-3">
-                            <a href="https://motivational-quotes-api.onrender.com" target="_blank"><i
-                                    class="fas fa-globe cursor-pointer"></i></a>
-                            <a href="https://github.com/IlhamMalabu/quotes-api" target="_blank"><i
-                                    class="fab fa-github cursor-pointer"></i></a>
-    
+                            <a href="https://motivational-quotes-api.onrender.com" target="_blank"><i class="fas fa-globe cursor-pointer"></i></a>
+                            <a href="https://github.com/IlhamMalabu/quotes-api" target="_blank"><i class="fab fa-github cursor-pointer"></i></a>
                         </div>
                     </div>
                     <div class="border-t-2 border-text px-2 mx-2 border-black"></div>
-                    <div class="p-3">
-                        A motivational quotes generator API using Node.
-                    </div>
-    
-                    <div class="p-3 mt-auto pb-7">
-                        Node Express
-                    </div>
+                    <div class="p-3">A motivational quotes generator API using Node.</div>
+                    <div class="p-3 mt-auto pb-7">Node Express</div>
                 </div>
-                <div
-                class="flex flex-col h-80 w-72 m-5 bg-c-green border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
-                <div class="flex pt-5 items-center justify-between">
-                    <div class="flex flex-col py-2 px-5 font-bold">Moodboard <span class="font-light">2021</span>
+            
+                <div class="flex flex-col h-80 w-64 m-5 bg-c-green border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+                    <div class="flex pt-5 items-center justify-between">
+                        <div class="flex flex-col py-2 px-5 font-bold">Moodboard <span class="font-light">2021</span></div>
+                        <div class="px-3">
+                            <a href="https://github.com/IlhamMalabu/moodboard" target="_blank"><i class="fab fa-github cursor-pointer"></i></a>
+                        </div>
                     </div>
-                    <div class="px-3">
-                        <a href="https://github.com/IlhamMalabu/moodboard" target="_blank"><i
-                                class="fab fa-github cursor-pointer"></i></a>
-    
-                    </div>
-                </div>
-                <div class="border-t-2 border-text px-2 mx-2 border-black"></div>
-                <div class="p-3">
-                    Full-Stack Application that allows users to share posts. Users can like, comment and post.
-                </div>
-    
-                <div class="p-3 mt-auto pb-7">
-                    React Firebase MaterialUI
+                    <div class="border-t-2 border-text px-2 mx-2 border-black"></div>
+                    <div class="p-3">Full-Stack Application that allows users to share posts. Users can like, comment, and post.</div>
+                    <div class="p-3 mt-auto pb-7">React Firebase MaterialUI</div>
                 </div>
             </div>
-         
-        <!-- <div
-                    class="flex flex-col h-80 w-72 m-5 bg-c-pink border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
-                    <div class="flex pt-5 items-center justify-between">
-                        <div class="flex flex-col py-2 px-5 font-bold">zainabumalabu.com<span
-                                class="font-light">2021</span>
-                        </div>
-                        <div class="px-3">
-                            <a href="https://github.com/IlhamMalabu/IlhamMalabu.github.io" target="_blank"><i
-                                class="fab fa-github cursor-pointer"></i></a>
-                                <a href="https://ilhammalabu.github.io/" target="_blank"><i
-                                    class="fas fa-globe cursor-pointer"></i></a>     
-                        
-                        </div>
-                    </div>
-                    <div class="border-t-2 border-text px-2 mx-2 border-black"></div>
-                    <div class="p-3">
-                        Personal Portfolio.
-                    </div>
-    
-                    <div class="p-3 mt-auto pb-7">
-                        TailwindCSS Javascript
-                    </div>
-                </div> -->
-    </div>
                 <!-- beggining 2 -->
-                <div class="flex flex-col md:flex-row justify-center items-center md:mx-24  xl:mx-24  2xl:mx-24 lg:mx-24">
+                <div class="flex flex-col md:flex-row justify-center items-center gap-5 flex-nowrap md:flex-wrap overflow-x-auto md:mx-24">
                     <div
-                    class = "flex flex-col h-80 w-72 m-5 bg-c-purple border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+                    class = "flex flex-col h-80 w-64 m-5 bg-c-purple border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
         <div class="flex flex-col sm:flex-row pt-5 items-center justify-between">
             <div class="flex flex-col py-2 px-5 font-bold">GPA Calculator <span
                     class="font-light">2021</span>
@@ -198,7 +137,7 @@
                 </div>
 
                 <div
-        class="flex flex-col h-80 w-72 m-5 bg-c-green border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+        class="flex flex-col h-80 w-64 m-5 bg-c-green border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
         <div class="flex pt-5 items-center">
             <div class="flex flex-col py-2 px-5 font-bold">STEM Outreach Program (IEEE)<span
                     class="font-light">2021</span>
@@ -216,7 +155,7 @@
         
                 </div>
                 <div
-        class="flex flex-col h-80 w-72 m-5 bg-c-pink border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+        class="flex flex-col h-80 w-64 m-5 bg-c-pink border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
         <div class="flex pt-5 items-center">
             <div class="flex flex-col py-2 px-5 font-bold">Breast Cancer Classification using Machine Learning<span
                     class="font-light">2022</span>
@@ -234,7 +173,7 @@
         
                 </div>
                 <div
-        class="flex flex-col h-80 w-72 m-5 bg-c-green border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+        class="flex flex-col h-80 w-64 m-5 bg-c-green border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
         <div class="flex pt-5 items-center">
             <div class="flex flex-col py-2 px-5 font-bold">Spotify Tracks EDA<span
                     class="font-light">2022</span>
@@ -252,9 +191,11 @@
         
                 </div>
                 </div>
-                <div class="flex flex-col md::flex-row justify-center items-center md:mx-24  xl:mx-24  2xl:mx-24 lg:mx-24">
+<!-- 
+                
+                <div class="flex flex-col md:flex-row justify-center items-center gap-5 flex-nowrap overflow-x-auto md:mx-24">
                     <div
-        class="flex flex-col  h-80 w-72 m-5 bg-c-pink border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+        class="flex flex-col h-80 w-72 m-5 bg-c-pink border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
         <div class="flex pt-5 items-center">
             <div class="flex flex-col py-2 px-5 font-bold">Photography<span
                     class="font-light">Ongoing</span>
@@ -307,11 +248,11 @@
                 </div>
                 
                         </div> 
-                </div>
+                </div> -->
         </section>
         <section class="mb-16 pt-24" id="Services">
             <div class="text-center font-serif text-4xl font-bold tracking-wide pb-5">Services</div>
-            <div class="flex flex-col sm:flex-row  items-center justify-around m-20  ">
+            <div class="flex flex-col sm:flex-row items-center justify-around m-20  ">
                 <div class="px-12 ">
                     <div class=" ml-6 pb-2 font-semibold text-lg">
                         Web Development
@@ -319,31 +260,10 @@
                     <div class=" ml-6 pb-2 font-semibold text-lg">
                         Photography/Videography
                     </div>
-                    <!-- <div class="pr-2 pb-2 font-semibold text-lg">
-                        CCI Consulting
-                    </div> -->
-                    <div class="pr-2 pb-2 font-semibold text-lg">
+                    <div class="ml-6 pb-2 font-semibold text-lg">
                         Content Creation
                     </div>
                 </div>
-                <!-- <div >
-                    <div class="font-bold font-serif text-center pb-5 text-2xl">Technologies</div>
-                    <div class="pr-2 pb-2 font-semibold text-lg">
-                        React
-                    </div>
-                    <div class="pr-2 pb-2 font-semibold text-lg">
-                        Express/Node
-                    </div>
-                    <div class="pr-2 pb-2 font-semibold text-lg">
-                        PostgreSQL/MySQL
-                    </div>
-                    <div class="pr-2 pb-2 font-semibold text-lg">
-                        Pandas/Matplotlib/ScikitLearn
-                    </div>
-                    <div class="pr-2 pb-2 font-semibold text-lg">
-                        TensorFlow
-                    </div>
-                </div> -->
             </div>
             </div>
         </section>
@@ -351,7 +271,7 @@
             <div class="pb-5">
                 Contact
             </div>
-            <div class="flex flex-row space-x-12 sm:space-x-24 justify-between p-5 ">
+            <div class="flex flex-row space-x-12 sm:space-x-24 justify-around p-5 ">
                 <div>
                     <a href="https://github.com/IlhamMalabu" target="_blank" title="External link to my Github Account">
                         <i class="fa fa-github" id="contact-btn"></i>
@@ -364,7 +284,7 @@
                     </a>
                 </div>
                 <div>
-                    <a href="https://youtube.com/c/ilhammalabu" target="_blank" title="External link to my Youtube">
+                    <a href="https://youtube.com/@zainabuilham" target="_blank" title="External link to my Youtube">
                         <i class="fa fa-youtube" id="contact-btn"></i>
                     </a>
                 </div>
@@ -383,5 +303,5 @@
     
     </main>
 </body>
-
+<script src="https://cdn.tailwindcss.com"></script>
 </html>
