@@ -3,25 +3,25 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zainabu Malabu</title>
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://kit.fontawesome.com/ebf5f49d8c.js" crossorigin="anonymous"></script>
     <script src="main.js" async defer></script>
 </head>
 
-<body class="bg-c-yellow font-serif ">
-    <header
-        class="sticky top-0 z-50 backdrop-filter backdrop-blur-lg bg-opacity-30 flex items-center md:justify-between lg:justify-between py-5 px-10 bg-gray-100 ">
-        <div class="">
+
+<header
+        class="flex flex-row sticky top-0 z-50 backdrop-filter backdrop-blur-lg bg-opacity-30 items-center md:justify-between lg:justify-between py-5 px-10 bg-gray-100 ">
+        <div class="flex">
             Zainabu Malabu
         </div>
-        <ul class="flex invisible  md:items-center lg:items-center md:visible lg:visible">
+        <ul class="flex invisible sm:items-center sm:visible">
             <li class="px-2"><a href="#about">about me</a></li>
             <li class="px-2"><a href="#projects">projects</a></li>
             <li class="px-2"><a href="#services">services</a></li>
             <span class="visible">
-                <li class="px-2"><a href="files/Zainabu_Tech_Resume_2024.pdf" target="_blank" target="_blank"
+                <li class=""><a href="files/Zainabu_Tech_Resume_2024.pdf" target="_blank" target="_blank"
                         class="border border-square border-c-green rounded-md px-3 py-2 hover:font-semibold hover:bg-c-yellow cursor-pointer">resume</a>
                     <span class="absolute inline-flex h-3 w-3 rounded-full bg-c-green -my-2 -mx-2"><span
                             class="relative animate-ping inline-flex rounded-full h-3 w-3 bg-c-green"></span></span>
@@ -30,15 +30,16 @@
             </span>
         </ul>
     </header>
-    
+
+<body class="bg-c-yellow font-serif overflow-x-hidden">
     <main class="relative">
-        <section class="h-screen flex flex-col justify-center text-center">
+        <section class="h-screen flex flex-col justify-center text-center px-4 md:px-8">
             <div>
                 <div class="py-2 text-lg">Hi, my name is</div>
-                <div id="name" class=" text-8xl m-6 font-serif tracking-wider font-bold text-c-green md:text-8xl lg:text-8xl xl:text-8xl 2xl:text-8xl">
+                <div id="name" class="text-8xl text-center font-serif tracking-wider font-bold text-c-green">
                     Zainabu Malabu
                 </div>
-                <div class="py-3 text-lg "> Tech. Creative.</div>
+                <div class="py-3 text-lg"> Tech. Creative.</div>
             </div>
             <div class="mt-12">
                 <a href="#about"><i class="fas fa-chevron-down animate-bounce text-2xl"></i></a>
@@ -49,18 +50,18 @@
             <div class="text-center font-serif text-4xl font-bold tracking-wide pb-5">about me</div>
             <div class="p-12 text-xl xl:mx-20"> I am a Computer Engineer, founder of an art magazine <a href="https://yonkiabuja.com"><i class="text-c-green">YONKI</i></a>, a photographer, a youtuber and general lover of enjoyment.
             </div>
-            <div class="flex flex-col justify-center items-center text-lg px-12 ">
+            <div class="text-center text-lg px-12">
                 <p class="">"<a id="quote">Someday, somewhere- anywhere, unfailingly, you'll find yourself, and that, and only
                         that, can be the happiest or bitterest hour of your life</a>"</p>
                 <p>-<a id="person">Pablo Neruda</a></p>
             </div>
         </section>
         
-        <section class="mb-28 items-center pt-24" id="projects">
+        <section class="mb-28 items-center pt-24 flex flex-col" id="projects">
             <div class="text-center font-serif text-4xl font-bold tracking-wide pb-5">projects</div>
-                <div class="flex flex-row sm:flex-col justify-center items-center md:mx-24 xl:mx-24 2xl:mx-24 lg:mx-24"> 
+                <div class="flex-col md:flex-row  justify-center items-center md:mx-24 "> 
                     <div
-                    class="flex flex-col h-80 w-72 m-5 bg-c-pink border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+                    class="flex flex-col md:flex-row h-80 w-72 m-5 bg-c-pink border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
                     <div class="flex pt-5 items-center justify-between">
                         <div class="flex flex-col py-2 px-5 font-bold">YONKI Abuja<span
                                 class="font-light">2023</span>
@@ -171,11 +172,11 @@
                     </div>
                 </div> -->
     </div>
-                <!-- </div> -->
-                <div class="flex flex-row sm:flex-col justify-center items-center md:mx-24  xl:mx-24  2xl:mx-24 lg:mx-24">
+                <!-- beggining 2 -->
+                <div class="flex flex-col md:flex-row justify-center items-center md:mx-24  xl:mx-24  2xl:mx-24 lg:mx-24">
                     <div
                     class = "flex flex-col h-80 w-72 m-5 bg-c-purple border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
-        <div class="flex flex-row pt-5 items-center justify-between">
+        <div class="flex flex-col sm:flex-row pt-5 items-center justify-between">
             <div class="flex flex-col py-2 px-5 font-bold">GPA Calculator <span
                     class="font-light">2021</span>
             </div>
@@ -215,7 +216,7 @@
         
                 </div>
                 <div
-        class="flex flex-col h-80 w-72 m-5 bg-c-pink w-fit border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+        class="flex flex-col h-80 w-72 m-5 bg-c-pink border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
         <div class="flex pt-5 items-center">
             <div class="flex flex-col py-2 px-5 font-bold">Breast Cancer Classification using Machine Learning<span
                     class="font-light">2022</span>
@@ -251,9 +252,9 @@
         
                 </div>
                 </div>
-                <div class="flex flex-row sm:flex-col justify-center items-center md:mx-24  xl:mx-24  2xl:mx-24 lg:mx-24">
+                <div class="flex flex-col md::flex-row justify-center items-center md:mx-24  xl:mx-24  2xl:mx-24 lg:mx-24">
                     <div
-        class="flex flex-col h-80 w-72 m-5 bg-c-pink border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+        class="flex flex-col  h-80 w-72 m-5 bg-c-pink border-t-2 border-l-2 border-r-4 border-b-4 border-black rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
         <div class="flex pt-5 items-center">
             <div class="flex flex-col py-2 px-5 font-bold">Photography<span
                     class="font-light">Ongoing</span>
@@ -310,7 +311,7 @@
         </section>
         <section class="mb-16 pt-24" id="Services">
             <div class="text-center font-serif text-4xl font-bold tracking-wide pb-5">Services</div>
-            <div class="flex flex-row justify-around sm:flex-col m-20 md:flex-row lg:flex-row xl:flex-row 2xl:flex-row ">
+            <div class="flex flex-col sm:flex-row  items-center justify-around m-20  ">
                 <div class="px-12 ">
                     <div class=" ml-6 pb-2 font-semibold text-lg">
                         Web Development
@@ -350,7 +351,7 @@
             <div class="pb-5">
                 Contact
             </div>
-            <div class="flex space-x-24 sm:space-x-12 justify-center p-5 md:space-x-24 lg:space-x-24 xl:space-x-24 2xl:space-x-24">
+            <div class="flex flex-row space-x-12 sm:space-x-24 justify-between p-5 ">
                 <div>
                     <a href="https://github.com/IlhamMalabu" target="_blank" title="External link to my Github Account">
                         <i class="fa fa-github" id="contact-btn"></i>
